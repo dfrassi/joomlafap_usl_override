@@ -43,28 +43,21 @@
     text-decoration: none;
 }
 
-.focus1, .focus2 {
-    float: left;
-    width: 32%;
-    padding-right: 1.7%;
+.focus1{
+float:left;
+width:33%;
 }
-.focus3 {
-    float: left;
-    width:32%;
+.focus2{
+float:left;
+width:33%;
 }
-
-@media (max-width: 600px) {
-    .focus1,
-    .focus2,
-    .focus3 {
-        width: 100%;
-        padding: 0;
-    }
+.focus3{
+float:right;
+width:32%;
 }
-
 .focus img{
-/*min-width:289px;*/
-width: 100%;
+min-width:289px;
+width: 95%;
 }
 
 .focus h3 {
@@ -345,14 +338,13 @@ body.white div.menu-top .menu li a {
 div#main-2 {
     float: left;
     overflow: hidden;
-    width: 66%;
+    width: 71%;
     position: relative;
 }
 
 div#sidebar-right {
-    margin-top: 2px;
     float: right;
-    width: 33%;
+    width: 28%;
 }
 
 div.padding {
@@ -405,12 +397,7 @@ div#footer {
     text-align: center;
     line-height: 2;
 }
-div#footer .module-content {
-    padding:0 5px;
-}
-div#footer .module-content a{
-    padding-left: 0 !important;
-}
+
 
 .menudx li {
     display: list-item;
@@ -689,9 +676,3 @@ body.white h1.item-title, body.white h2.item-title, body.white h3.item-title {
 body.white fieldset {
     border: 0 !important;
 } 
-
-.allnews {
-text-align:center;
-margin-top:0.5em;
-margin-right:7px;
-}
