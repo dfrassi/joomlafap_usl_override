@@ -53,7 +53,7 @@ width:33%;
 }
 .focus3{
 float:right;
-width:32%;
+width:33%;
 }
 .focus img{
 min-width:289px;
@@ -338,13 +338,14 @@ body.white div.menu-top .menu li a {
 div#main-2 {
     float: left;
     overflow: hidden;
-    width: 71%;
+    width: 66%;
     position: relative;
 }
 
 div#sidebar-right {
+    margin-top: 2px;
     float: right;
-    width: 28%;
+    width: 33%;
 }
 
 div.padding {
@@ -397,7 +398,12 @@ div#footer {
     text-align: center;
     line-height: 2;
 }
-
+div#footer .module-content {
+    padding:0;
+}
+div#footer .module-content a{
+    padding-left: 0 !important;
+}
 
 .menudx li {
     display: list-item;
