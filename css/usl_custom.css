@@ -689,3 +689,9 @@ body.white h1.item-title, body.white h2.item-title, body.white h3.item-title {
 body.white fieldset {
     border: 0 !important;
 } 
+
+.allnews {
+text-align:center;
+margin-top:0.5em;
+margin-right:7px;
+}
