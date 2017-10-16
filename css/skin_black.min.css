@@ -3,4 +3,5 @@ body.black{background-color:#1e2031;color:#fff}body.black h1 a,body.black h2 a{c
 body.back .allnews a{color:#fff;/*impostazione colore bianco nella sezione allnews in alto contrasto */}
 body.black .pull-left .moduletable, body.black .pull-right .moduletable, body.black .moduletable .mod_custom {
 border: none;/* disattivazione dei bordi solo nei moduli destra sinitra e custom in home page nel template alto contrasto */ }
+body.black .nome h6 {color: #fcbb78;}/* aggunta regola colore per vedere il nome delle provincie */
 
