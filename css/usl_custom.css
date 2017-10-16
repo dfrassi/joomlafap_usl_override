@@ -35,7 +35,7 @@
 }
 
 .nome a, .nome a:hover, .nome a:focus {
-    color: #545558 !important;
+    /* color: #545558 !important; regola commenta per vedere il titolo del sito in alto contrasto */
     text-decoration: none !important;
 }
 #province a, #province a:hover, #province a:focus {
