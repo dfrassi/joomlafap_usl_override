@@ -676,8 +676,13 @@ body.white h1.item-title, body.white h2.item-title, body.white h3.item-title {
 body.white fieldset {
     border: 0 !important;
 }
-
 /*
 
 riga di commento aggiuntiva
  */
+.allnews {
+text-align:center;/*per centrare la sezione custom allnews presente nel template www.uslsudest.toscana.it predisposta per il mobile */	
+margin-top:-0.5em;
+margin-right:7px;
+}
+
