@@ -685,4 +685,8 @@ text-align:center;/*per centrare la sezione custom allnews presente nel template
 margin-top:-0.5em;
 margin-right:7px;
 }
+/*
+riga di commento aggiuntiva
+*/
+.flexslider{z-index:0}/* per evitare di coprire il popup del login con slider/carosello */
 
