@@ -81,14 +81,14 @@ JHtml::_('bootstrap.tooltip');
             </div>
         </div>
         <?php endif; ?>
-        <?php if (JPluginHelper::isEnabled('system', 'remember')) : ?>
+        <!--<?php if (JPluginHelper::isEnabled('system', 'remember')) : ?>
         <div id="form-login-remember" class="control-group checkbox">
             <div class="control-label">
                 <label for="modlgn-remember" class="control-label"><?php echo JText::_('MOD_LOGIN_REMEMBER_ME') ?></label>
                 <input id="modlgn-remember" type="checkbox" name="remember" class="inputbox form-control" value="yes"/>
             </div>
         </div>
-        <?php endif; ?>
+        <?php endif; ?> disattivazione modulo remember me per aumento sicurezza-->
         <div id="form-login-submit" class="control-group clearfix">
             <div class="controls fap-submit">
                 <button type="submit" tabindex="0" name="Submit" class="btn btn-primary"><?php echo JText::_('JLOGIN') ?></button>
