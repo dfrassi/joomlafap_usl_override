@@ -106,6 +106,15 @@ body.white div#footer a {
     /* color: #002c74; */
     padding: .3em .5em;
 }
+
+body.white div#footer div#login-tradizionale a {
+color:#666;
+}
+
+body.white div#footer div#login-tradizionale a:hover, body.white div#footer div#login-tradizionale a:focus {
+color:#fff;
+}
+
 table.trasparenza {
     width:100%;
 	padding:0;
@@ -689,4 +698,9 @@ margin-right:7px;
 riga di commento aggiuntiva
 */
 .flexslider{z-index:0}/* per evitare di coprire il popup del login con slider/carosello */
+
+body.white div#footer .close a {color:#fff;}/* correzione per il colore sul pulsante di chiusura del popup di login */
+
+
+
 
