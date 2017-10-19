@@ -109,7 +109,7 @@ $href_cedolino = JRoute::_($urllogin."?urlko=".$urlko."&amp;urlok=".$urlok);
 		-webkit-border-radius: 10px; /* safari, chrome */
 		" >
 			<div id="form-login-username" class="control-group" style="margin-left:20px;width:230px;color:black;">
-			 <div class="input-prepend"><div style="text-align:right;"><a onclick="toggle_visibility('login-tradizionale');" href="#">[x] chiudi</a></div>
+			 <!--aggiunta class .close colore pulsante di chiusura -->per <div class="input-prepend"><div style="text-align:right;" class="close"><a onclick="toggle_visibility('login-tradizionale');" href="#">[x] chiudi</a></div>
           <div class="controls">
                 <?php if (!$params->get('usetext')) : ?>
                    
