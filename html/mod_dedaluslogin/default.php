@@ -86,28 +86,7 @@ $href_cedolino = JRoute::_($urllogin."?urlko=".$urlko."&amp;urlok=".$urlok);
 			
 		</p>
 		
-		<div id="login-tradizionale" style="float:right;
-		padding-top:20px;
-		text-align:center;
-		display:none;
-		display: none; /* Hidden by default */
-		position: fixed; /* Stay in place */
-		z-index: 1; /* Sit on top */
-		left: 41.5%;
-		top: 20%;
-		margin-left:auto;
-		margin-right:auto;
-		width: 270px; /* Full width */
-		height: 230px; /* Full width */
-		overflow: auto; /* Enable scroll if needed */
-		background-color: #E0C079; /* Fallback color */
-		-moz-box-shadow:5px 5px 2px #333333;
-		-webkit-box-shadow:5px 5px 2px #333333;
-		box-shadow:5px 5px 2px #333333;
-		border-radius: 10px; 
-		-moz-border-radius: 10px; /* firefox */
-		-webkit-border-radius: 10px; /* safari, chrome */
-		" >
+		<div id="login-tradizionale"><!-- rimosso stile in linea, verra aggiunto sul file uslno_custom.css anche per una migliore gestione per mobile--> 
 			<div id="form-login-username" class="control-group" style="margin-left:20px;width:230px;color:black;">
 			 <!--aggiunta class .close colore pulsante di chiusura -->per <div class="input-prepend"><div style="text-align:right;" class="close"><a onclick="toggle_visibility('login-tradizionale');" href="#">[x] chiudi</a></div>
           <div class="controls">
