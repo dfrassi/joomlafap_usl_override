@@ -718,7 +718,24 @@ riga di commento aggiuntiva
 .flexslider{z-index:0}/* per evitare di coprire il popup del login con slider/carosello */
 
 body.white div#footer .close a {color:#fff;}/* correzione per il colore sul pulsante di chiusura del popup di login */
-
-
-
-
+/*
+riga di commento aggiuntiva
+*/
+div#login-tradizionale	{
+		float:right;		
+		padding-top:20px;
+		text-align:center;
+		display:block;
+		position: fixed;
+		z-index: 1; 
+		left: 41.5%;
+		top: 20%;
+		margin-left:auto;
+		margin-right:auto;
+		width: 270px; 
+		height: 230px;
+		overflow: auto; 
+		box-shadow:rgb(51, 51, 51) 5px 5px 2px;
+		border-radius:10px;
+		background-color: rgb(224, 192, 121);
+} /* ripristino regole per lo stile del box di login */
