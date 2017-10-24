@@ -707,7 +707,7 @@ body.white fieldset {
 
 riga di commento aggiuntiva
  */
-.allnews, .custom {
+.allnews, {
 text-align:center;/*per centrare la sezione custom allnews presente nel template www.uslsudest.toscana.it predisposta per il mobile */	
 }
 .allnews {
