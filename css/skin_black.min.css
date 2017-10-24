@@ -4,5 +4,5 @@ body.back .allnews a, body.black .custom a{color:#fff;/*impostazione colore bian
 body.black .pull-left .moduletable, body.black .pull-right .moduletable, body.black .moduletable .mod_custom {
 border: none;/* disattivazione dei bordi solo nei moduli destra sinitra e custom in home page nel template alto contrasto */ }
 body.black .nome h6 {color: #fcbb78;}/* aggunta regola colore per vedere il nome delle provincie */
-body.white .custom a, body.black .custom a {text-decoration:none;}/* disattivata sottolineatura div custom */
+body.white .module-content a, body.black .module-content a {text-decoration:none;text-align:center;}/* disattivata sottolineatura div custom e predisposizione per il mobile */
 
